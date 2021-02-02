@@ -16,9 +16,6 @@ services:
       - "5000:5000"
     links:
       - db
-  
-  redis:
-    image: "redis:alpine"
 
   adminer:
     image: adminer
